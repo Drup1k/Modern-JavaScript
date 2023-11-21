@@ -1,7 +1,6 @@
 // Check if script is read by the browser!
 console.log("script is running")
 // import data from different files
-// import WMO_CODES from "./wmo_codes.js";
 import API from "./config.js";
 
 // Getting my button element
@@ -14,7 +13,7 @@ const cityNameContainer = document.querySelector('.city-info')
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 // In case I want to switch to a different format:
-const weekdays2 = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
 // Check if weekdays are correctly displayed
 console.log(weekdays);
 // check if API is correctly imported
